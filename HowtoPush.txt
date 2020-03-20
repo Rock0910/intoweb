@@ -1,0 +1,6 @@
+git push origin master
+
+git status 看會有啥資料改變
+git add . 加上本資料夾的資料
+git commit -m "msg" -m是mark的意思
+git push "remote" "branch"
