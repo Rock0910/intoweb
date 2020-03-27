@@ -23,21 +23,22 @@
     "homepage": "https://github.com/Rock0910/intoweb#readme",
     "devDependencies": {
         "@babel/cli": "^7.8.4",
-        "@babel/core": "^7.8.7",
+        "@babel/core": "^7.9.0",
+        "@babel/plugin-external-helpers": "^7.8.3",
         "@babel/plugin-proposal-class-properties": "^7.8.3",
-        "@babel/plugin-proposal-object-rest-spread": "^7.8.3",
-        "@babel/preset-env": "^7.8.7",
-        "babel-preset-typescript": "^7.0.0-alpha.19",
+        "@babel/plugin-proposal-object-rest-spread": "^7.9.0",
+        "@babel/preset-env": "^7.9.0",
+        "@babel/preset-typescript": "^7.9.0",
         "eslint": "^6.8.0",
         "prettier-eslint-cli": "^5.0.0",
-        "rollup": "^2.1.0",
+        "rollup": "^2.2.0",
         "rollup-plugin-babel": "^4.4.0",
         "typescript": "^3.8.3"
     },
     "babel": {
         "presets": [
             [
-                "env",
+                "@babel/env",
                 {
                     "targets": {
                         "browsers": [
@@ -49,7 +50,10 @@
             ]
         ],
         "plugins": [
-            "external-helpers"
+            "@babel/plugin-external-helpers"
         ]
+    },
+    "dependencies": {
+        "core-js": "^3.6.4"
     }
 }
