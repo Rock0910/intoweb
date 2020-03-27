@@ -1,59 +1,38 @@
 {
-    "name": "intoweb",
-    "version": "0.1.0",
-    "description": "Trying to learn web programming",
-    "main": "index.js",
-    "scripts": {
-        "build": "rollup -c && cp ./out/* ./htdocs/js",
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://Rock0910@github.com/Rock0910/intoweb.git"
-    },
-    "keywords": [
-        "Node.js",
-        "TypeScript"
-    ],
-    "author": "Rock0910",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/Rock0910/intoweb/issues"
-    },
-    "homepage": "https://github.com/Rock0910/intoweb#readme",
-    "devDependencies": {
-        "@babel/cli": "^7.8.4",
-        "@babel/core": "^7.9.0",
-        "@babel/plugin-external-helpers": "^7.8.3",
-        "@babel/plugin-proposal-class-properties": "^7.8.3",
-        "@babel/plugin-proposal-object-rest-spread": "^7.9.0",
-        "@babel/preset-env": "^7.9.0",
-        "@babel/preset-typescript": "^7.9.0",
-        "eslint": "^6.8.0",
-        "prettier-eslint-cli": "^5.0.0",
-        "rollup": "^2.2.0",
-        "rollup-plugin-babel": "^4.4.0",
-        "typescript": "^3.8.3"
-    },
-    "babel": {
-        "presets": [
-            [
-                "@babel/env",
-                {
-                    "targets": {
-                        "browsers": [
-                            "last 2 versions"
-                        ]
-                    },
-                    "modules": false
-                }
-            ]
-        ],
-        "plugins": [
-            "@babel/plugin-external-helpers"
-        ]
-    },
-    "dependencies": {
-        "core-js": "^3.6.4"
-    }
+  "name": "intoweb",
+  "version": "0.1.0",
+  "description": "\"learning Web\"",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c && cp ./out/* ./htdocs/js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Rock0910/intoweb.git"
+  },
+  "keywords": [
+    "[\"Node.js\"",
+    "\"TypeScript\"]"
+  ],
+  "author": "\"Rock0910 <k45672204@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rock0910/intoweb/issues"
+  },
+  "homepage": "https://github.com/Rock0910/intoweb#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-typescript": "^7.9.0",
+    "core-js": "^3.6.4",
+    "eslint": "^6.8.0",
+    "prettier-eslint-cli": "^5.0.0",
+    "rollup": "^2.2.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "typescript": "^3.8.3"
+  }
 }
